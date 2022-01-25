@@ -1,0 +1,17 @@
+// 1- anidacion
+.contenedor {
+    background-color: $azul;
+    font-family: $sans-serif;
+
+    .titulo {
+        color: $color-primario;
+
+        &:hover {
+            color: $color-fondo;
+        }
+    }
+
+    &:hover {
+        background-color: coral;
+    }
+}

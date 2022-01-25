@@ -1,0 +1,23 @@
+/* las variables siempre vanm arriba de todo */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Vollkorn:wght@400;600;900&display=swap");
+/* Todo archivo que no sea el main se tiene que llamar con _ adelante y la extension .sccs*/
+header {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: space-between; }
+  header ul {
+    display: flex; }
+    header ul li {
+      list-style: none;
+      margin: 10px; }
+
+.contenedor {
+  background-color: #4f86c6;
+  font-family: "Open Sans", sans-serif; }
+  .contenedor .titulo {
+    color: #17301C; }
+    .contenedor .titulo:hover {
+      color: #4FB0C6; }
+  .contenedor:hover {
+    background-color: coral; }

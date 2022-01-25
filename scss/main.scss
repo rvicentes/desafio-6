@@ -1,0 +1,15 @@
+// 1- anidacion
+
+// 3- Variables 
+/* las variables siempre vanm arriba de todo */
+@import "./variables/colores.scss";
+@import "./variables/fuentes";
+
+
+// 2- Importaciones
+
+// Todo archivo que no sea el main se tiene que llamar con _ adelante y la extension .sccs
+
+@import "./utilidades/header";
+
+@import "./secciones/index.scss";
